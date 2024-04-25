@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <style>
+   body {
+      background-image: url('https://th.bing.com/th?id=OIP.bjeKfD1BRLlaROB85DjY8gHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2');
+       background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+       }
+    #cp {
+     margin: 100px auto 20px;
+     width: 600px;
+     text-align: center;
+    }
+    button {
+      margin-right: 10px;
+    }
+    #message {
+      font-style: italic;
+      text-align: center;
+      font-weight: bold;
+      color: #4CAF50;
+    }
+  </style>
+Music Player
+</head>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="app.js"></script>
+<body>
+<div id="cp">
+  <button id="play">Play</button>
+</div>
+<button id="pause">pause</button>
+<div>
+<button id="mute">mute</button>
+<div>
+<button id="unmute">unmute</button>
+<div>
+<button id="volUp">Volume Up</button>
+<div>
+
+<button id="volDown">Volume Down</button>
+<p id="message">Waiting</p>
+  <!-- Control Panel will go here -->
+  <audio id="player">
+  <source src="music/song1.mp3" type="audio/mpeg">
+</audio>
+  <!-- Audio player will go here -->
+</body>
+</html>
