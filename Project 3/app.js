@@ -1,8 +1,7 @@
 var main = function() {
     var volume;
-    var muted = false; 
-  
-    $('#play').click(function(){
+     
+      $('#play').click(function(){
         $('#message').text("Playing track");
         $('#player').trigger("play");
     });
